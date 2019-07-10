@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+	<title>inputEmoji demo page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src='inputEmoji.js'></script>
+	<script>
+		$(function () {
+			$('input[name=mes]').emoji();
+		})
+	</script>
+</head>
+<body>
+	<h2>Sample form:</h2>
+	<form>
+		<table>
+			<tr>
+				<td>To:</td>
+				<td><input type="text" name="to" placeholder="John Doe"></td>
+			</tr>
+			<tr>
+				<td>Message:</td>
+				<td><input type="text" name="mes" placeholder="type message here..."></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit"></td>
+			</tr>
+		</table>
+	</form>
+	<h2>Code:</h2>
+	<pre>
+		$(function(){
+			$('input[name=mes]').emoji();
+		})
+	</pre>
+</body>
+</html>
