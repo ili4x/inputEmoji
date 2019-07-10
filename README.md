@@ -9,3 +9,6 @@ Usage:
 
     $('input').emoji();
     
+Demo:
+
+https://ili4x.github.io/inputEmoji/demo.html
