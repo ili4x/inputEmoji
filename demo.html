@@ -7,7 +7,7 @@
 	<script src='inputEmoji.js'></script>
 	<script>
 		$(function () {
-			$('input[name=mes]').emoji();
+			$('input[name=mes]').emoji({place: 'after'});
 		})
 	</script>
 </head>
@@ -30,10 +30,11 @@
 		</table>
 	</form>
 	<h2>Code:</h2>
-	<pre>
-		$(function(){
-			$('input[name=mes]').emoji();
-		})
+	<pre style="background-color: #eee">
+
+$(function(){
+	$('input[name=mes]').emoji({place: 'after'});
+})
 	</pre>
 </body>
 </html>
