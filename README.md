@@ -7,7 +7,7 @@ Load:
 
 Usage:
 
-    $('input').emoji();
+    $('input[type=text]').emoji();
     
 Demo:
 
